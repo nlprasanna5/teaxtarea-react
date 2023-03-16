@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+  }
+  
+  textarea {
+    resize: none;
+    width: 100%;
+    height: 20vh;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+
+  .text {
+    background-color: #19A7CE;
+    height: 40vh;
+    width:40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .chars {
+    font-weight: bolder;
+    font-size: 2rem;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    textarea {
+      width: 80%;
+      max-width: 600px;
+    }
+  }
+  
